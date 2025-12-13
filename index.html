@@ -12,6 +12,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="is-preload">
+		<div id='google_translate_element'></div>
 		<div id="page-wrapper">
 
 			<!-- Header -->
@@ -27,14 +28,10 @@
 			<!-- Nav -->
 				<nav id="nav">
 					<ul>
-					
-
-
 						<li><a href="index.html">Home</a></li>
 						<li><a href="#services">Services</a></li>
 						<li><a href="#aboutus">About Us</a></li>
 						<li><a href="#contact">Contact</a></li>
-						<li><a href="th/index.html">EN/TH</a></li>
 					</ul>
 				</nav>
 
@@ -249,6 +246,74 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script type="text/javascript">
+			 function googleTranslateElementInit() {
+			 new google.translate.TranslateElement({
+			 autoDisplay: 'true',
+			 includedLanguages: 'th,en,vi,ja', // <- remove this line to show all language
+			 layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
+			 }, 'google_translate_element');
+			 
+			
+			  // Function to convert full names to abbreviations
+			  function abbreviateLanguages() {
+			    const select = document.querySelector('#google_translate_element select');
+			    if (!select) return;
+			
+			    for (let option of select.options) {
+			      switch(option.text.toLowerCase()) {
+			        case 'english': option.text = 'EN'; break;
+			        case 'thai': option.text = 'TH'; break;
+			        case 'vietnamese': option.text = 'VN'; break;
+					case 'japanese': option.text = 'VN'; break;
+					case 'select language':  option.text = '🌐︎'; break;
+			      }
+			    }
+			  }
+			
+			  // Initial abbreviation
+			  setTimeout(abbreviateLanguages, 500);
+			
+			  // Watch for changes so selected value stays abbreviated
+			  const select = document.querySelector('#google_translate_element select');
+			  if (select) {
+			    const observer = new MutationObserver(abbreviateLanguages);
+			    observer.observe(select, { childList: true, subtree: true });
+			  }
+			}
+			
+			</script>
+			<script type="text/javascript"
+			  src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+			
+			<style>
+			
+			  body > .skiptranslate,.goog-logo-link,.gskiptranslate,.goog-te-gadget span,.goog-te-banner-frame,#goog-gt-tt, .goog-te-balloon-frame,div#goog-gt-{
+			    display: none!important;
+			  }
+			  .goog-te-gadget {
+			    color: transparent!important;
+			    font-size:0px;
+			  }
+			  .goog-text-highlight {
+			    background: none !important;
+			    box-shadow: none !important;
+			  }
+			  #google_translate_element select{
+			    background:#3f4c40;
+			    color:#fff4e4;
+			    border: none;
+			    font-weight:bold;
+			    border-radius:3px;
+			    padding:8px 12px
+			  }
+			#google_translate_element {
+			    position: fixed;  /* Float relative to viewport */
+			    top: 0px;        /* Distance from top */
+			    right: 0px;      /* Distance from right */
+			    z-index: 99999;    /* Make sure it stays on top */
+			}
+			</style>
 	</body>
 </html>
+
