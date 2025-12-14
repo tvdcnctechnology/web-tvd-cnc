@@ -1,12 +1,34 @@
 [
   {
-    "company_title": "ทีวีดี-ซีเอ็นซี",
-    "vision_title": "นำเข้าโดยตรงจากประเทศญี่ปุ่น",
-    "product_title": "สินค้าคงคลังเครื่องจักรกล และ อะไหล่",
-    "sevice_title": "สิ่งที่เราทำ",
-    "expert_title": "ความเชี่ยวชาญของเรา",
-    "Information_title": "สารสนเทศ",
-    "aboutus_title": "เกี่ยวกับเรา",
-    "contact_title": "ติดต่อเรา"
+    "key": "company_title",
+    "value": "ทีวีดี-ซีเอ็นซี"
+  },
+  {
+    "key": "vision_title",
+    "value": "นำเข้าโดยตรงจากประเทศญี่ปุ่น"
+  },
+  {
+    "key": "product_title",
+    "value": "สินค้าคงคลังเครื่องจักรกล และ อะไหล่"
+  },
+  {
+    "key": "sevice_title",
+    "value": "สิ่งที่เราทำ"
+  },
+  {
+    "key": "expert_title",
+    "value": "ความเชี่ยวชาญของเรา"
+  },
+  {
+    "key": "Information_title",
+    "value": "สารสนเทศ"
+  },
+  {
+    "key": "aboutus_title",
+    "value": "เกี่ยวกับเรา"
+  },
+  {
+    "key": "contact_title",
+    "value": "ติดต่อเรา"
   }
 ]
