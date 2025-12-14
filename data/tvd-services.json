@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "key": "service1_url",
+    "value": ""
+  },
+  {
+    "key": "service1_title",
+    "value": ""
+  },
+  {
+    "key": "service1_detail",
+    "value": ""
+  },
+  {
+    "key": "service2_url",
+    "value": ""
+  },
+  {
+    "key": "service2_title",
+    "value": ""
+  },
+  {
+    "key": "service2_detail",
+    "value": ""
+  },
+  {
+    "key": "service3_url",
+    "value": ""
+  },
+  {
+    "key": "service3_title",
+    "value": ""
+  },
+  {
+    "key": "service3_detail",
+    "value": ""
+  },
+  {
+    "key": "service4_url",
+    "value": ""
+  },
+  {
+    "key": "service4_title",
+    "value": ""
+  },
+  {
+    "key": "service4_detail",
+    "value": ""
+  }
+]
