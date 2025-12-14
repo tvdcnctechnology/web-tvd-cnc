@@ -410,6 +410,13 @@ function googleTranslateElementInit() {
     });
 
     observer.observe(document.body, { childList: true, subtree: true });
+
+	    // Try to initialize periodically in case of hidden/collapsed rows
+    const interval = setInterval(() => {
+        initTranslate();
+        const select = document.querySelector('#google_translate_element select');
+        if (select) clearInterval(interval); // stop once initialized
+    }, 300);
 }
 
 			
@@ -447,6 +454,7 @@ function googleTranslateElementInit() {
 			</style>
 	</body>
 </html>
+
 
 
 
