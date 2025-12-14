@@ -557,35 +557,6 @@
         /* Optional: rounded corners */
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
       }
-/* Make the two main blocks inline like Bootstrap columns */
-.dataTables_wrapper .dataTables_filter,
-.dataTables_wrapper .dataTables_length {
-  display: inline-flex !important; /* inline like columns */
-  align-items: center;            /* vertical alignment */
-  justify-content: flex-start;    /* left align content */
-  width: 200px;                   /* equal width for both blocks */
-  white-space: nowrap;             /* prevent wrapping */
-  margin-right: 20px;             /* spacing between blocks */
-}
-
-/* Make label and input/select inline */
-.dataTables_wrapper .dataTables_filter label,
-.dataTables_wrapper .dataTables_length label {
-  display: flex;                  /* inline children */
-  align-items: center;            /* vertical alignment */
-  gap: 5px;                       /* spacing between text and input/select */
-  margin: 0;
-  font-weight: normal;
-}
-
-/* Make input/select take remaining space inside block */
-.dataTables_wrapper .dataTables_filter input,
-.dataTables_wrapper .dataTables_length select {
-  flex: 1;
-  min-width: 50px;
-}
-
-
 
     </style>
     <div id="imagePopup" style="display:none;">
@@ -593,6 +564,7 @@
     </div>
   </body>
 </html>
+
 
 
 
