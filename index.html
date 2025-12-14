@@ -290,11 +290,15 @@
 	
 		<script type="text/javascript">
 
-			$('body').on('DOMNodeInserted', function(e) {
-			    if (e.target.nodeName === 'svg' && e.target.namespaceURI === "http://www.w3.org/2000/svg") {
-			        $(e.target).closest('div').hide();
-			    }
-			});
+			$(document).ready(function() {
+							setInterval(() => {
+							    $('svg').each(function() {
+							        if (this.namespaceURI === "http://www.w3.org/2000/svg") {
+							            $(this).closest('div').hide();
+							        }
+							    });
+							}, 2000);
+				});
 			
 				// Helper function to render image
 function renderImage(url, alt) {
