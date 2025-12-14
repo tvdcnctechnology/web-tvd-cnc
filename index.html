@@ -378,51 +378,40 @@ fetch("/data/tvd-cnc.json")
     });
 });
 
+function googleTranslateElementInit() {
+    new google.translate.TranslateElement({
+        autoDisplay: true,
+        includedLanguages: 'th,en,vi,ja',
+        layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
+    }, 'google_translate_element');
 
+    function abbreviateLanguages() {
+        const select = document.querySelector('#google_translate_element select');
+        if (!select) return;
 
+        for (let option of select.options) {
+            switch(option.text.toLowerCase()) {
+                case 'english': option.text = 'EN'; break;
+                case 'thai': option.text = 'TH'; break;
+                case 'vietnamese': option.text = 'VN'; break;
+                case 'japanese': option.text = 'JP'; break;
+                case 'select language': option.text = '🌐︎'; break;
+            }
+        }
+    }
 
+    
+    // Initial abbreviation
+    setTimeout(abbreviateLanguages, 500);
 
+    // Observe the document for any new nodes (like expanded rows)
+    const observer = new MutationObserver(() => {
+        abbreviateLanguages();
+    });
 
+    observer.observe(document.body, { childList: true, subtree: true });
+}
 
-
-
-
-
-			 function googleTranslateElementInit() {
-			 new google.translate.TranslateElement({
-			 autoDisplay: 'true',
-			 includedLanguages: 'th,en,vi,ja', // <- remove this line to show all language
-			 layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
-			 }, 'google_translate_element');
-			 
-			
-			  // Function to convert full names to abbreviations
-			  function abbreviateLanguages() {
-			    const select = document.querySelector('#google_translate_element select');
-			    if (!select) return;
-			
-			    for (let option of select.options) {
-			      switch(option.text.toLowerCase()) {
-			        case 'english': option.text = 'EN'; break;
-			        case 'thai': option.text = 'TH'; break;
-			        case 'vietnamese': option.text = 'VN'; break;
-					case 'japanese': option.text = 'JP'; break;
-					case 'select language':  option.text = '🌐︎'; break;
-			      }
-			    }
-			  }
-			
-			  // Initial abbreviation
-			  var to = setTimeout(abbreviateLanguages, 500);
-			
-			  // Watch for changes so selected value stays abbreviated
-			  const select = document.querySelector('#google_translate_element select');
-			  if (select) {
-			    const observer = new MutationObserver(abbreviateLanguages);
-			    observer.observe(select, { childList: true, subtree: true });
-				  clearTimeout(to);
-			  }
-			}
 			
 			</script>
 			<script type="text/javascript"
@@ -458,6 +447,7 @@ fetch("/data/tvd-cnc.json")
 			</style>
 	</body>
 </html>
+
 
 
 
