@@ -341,7 +341,7 @@ function formatDetails(rowData) {
 }
 
 // Fetch data and initialize DataTable
-fetch("/data/tvd-cnc.json")
+fetch("/data/tvd-products.json")
 .then(res => res.json())
 .then(data => {
     const table = $('#cncTable').DataTable({
@@ -465,6 +465,7 @@ function googleTranslateElementInit() {
 			</style>
 	</body>
 </html>
+
 
 
 
