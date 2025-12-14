@@ -281,11 +281,17 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			
-			<!-- DataTables Responsive JS -->
-			<script src="https://cdn.datatables.net/responsive/2.6.1/js/dataTables.responsive.min.js"></script>
-			<script src="https://cdn.datatables.net/responsive/2.6.1/js/responsive.bootstrap5.min.js"></script>
+		<!-- DataTables core -->
+		<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
 		
-			<script type="text/javascript">
+		<!-- Bootstrap 5 integration -->
+		<script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
+		
+		<!-- Responsive extension -->
+		<script src="https://cdn.datatables.net/responsive/2.6.1/js/dataTables.responsive.min.js"></script>
+		<script src="https://cdn.datatables.net/responsive/2.6.1/js/responsive.bootstrap5.min.js"></script>
+	
+		<script type="text/javascript">
 				function formatDetails(d) {
 						return `
 						<table class="table table-sm table-borderless mt-2">
@@ -440,6 +446,7 @@ fetch("/data/tvd-cnc.json")
 			</style>
 	</body>
 </html>
+
 
 
 
