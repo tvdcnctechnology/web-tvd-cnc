@@ -559,10 +559,12 @@
       }
 .dataTables_wrapper .dataTables_filter,
 .dataTables_wrapper .dataTables_length {
-  display: inline-flex !important;
-  align-items: center;
+  display: inline-flex !important; /* keeps elements inline */
+  align-items: center;             /* vertically centers text/input */
+  justify-content: flex-start;     /* ensures content starts from left */
   margin-right: 20px;
   white-space: nowrap;
+  width: 200px;                    /* same width for both blocks */
 }
 
 .dataTables_wrapper .dataTables_filter label,
@@ -570,6 +572,7 @@
   margin-right: 5px;
   font-weight: normal;
 }
+
 		
 
 
@@ -579,6 +582,7 @@
     </div>
   </body>
 </html>
+
 
 
 
