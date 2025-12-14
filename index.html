@@ -557,22 +557,25 @@
         /* Optional: rounded corners */
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
       }
-
-
+/* Align the length selector and filter horizontally */
 .dataTables_wrapper .dataTables_filter,
 .dataTables_wrapper .dataTables_length {
   display: inline-flex !important;
-  align-items: center;
+  align-items: center; /* vertically center label and input/select */
   margin-right: 20px;
   white-space: nowrap;
 }
 
+/* Adjust the label spacing */
 .dataTables_wrapper .dataTables_filter label,
 .dataTables_wrapper .dataTables_length label {
-  margin-right: 5px;
+  margin-right: 8px; /* spacing between label and input/select */
   font-weight: normal;
+  display: inline-flex;
+  align-items: center;
 }
 
+/* Style the length select dropdown */
 .dataTables_wrapper .dataTables_length select {
   width: 80px;
   padding: 4px 6px;
@@ -583,12 +586,23 @@
   cursor: pointer;
 }
 
+/* Style the search input box */
+.dataTables_wrapper .dataTables_filter input {
+  padding: 4px 6px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+
+
     </style>
     <div id="imagePopup" style="display:none;">
       <img src="" alt="Fullscreen Image">
     </div>
   </body>
 </html>
+
 
 
 
