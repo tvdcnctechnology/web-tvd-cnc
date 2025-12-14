@@ -354,7 +354,7 @@
         return html;
       }
       // Fetch data and initialize DataTable
-      fetch("/data/tvd-products.json").then(res => res.json()).then(data => {
+      fetch("data/tvd-products.json").then(res => res.json()).then(data => {
         const table = $('#cncTable').DataTable({
           data: data,
           columns: [{
@@ -614,6 +614,7 @@
     </div>
   </body>
 </html>
+
 
 
 
