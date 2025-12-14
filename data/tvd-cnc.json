@@ -40,7 +40,7 @@
   {
     "Machine_ID": "CNC-003",
     "Machine_Name": "MAZAK QT-200",
-    "Stock": 20,
+    "Stock": "sold out",
     "Image_URL": "images/pic03.jpg",
     "Machine_Type": "Lathe",
     "Controller": "Mazatrol",
