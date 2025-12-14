@@ -15,7 +15,7 @@
     "Status": "Running",
     "Hours_Used": 12450,
     "Price_THB": 3500000,
-    "Image_URL": "https://example.com/images/haas_vf2.jpg"
+    "Image_URL": "pic01.jpg"
   },
   {
     "Machine_ID": "CNC-002",
@@ -33,7 +33,7 @@
     "Status": "Running",
     "Hours_Used": 7320,
     "Price_THB": 5200000,
-    "Image_URL": "https://example.com/images/dmg_cmx1100v.jpg"
+    "Image_URL": "pic02.jpg"
   },
   {
     "Machine_ID": "CNC-003",
@@ -51,7 +51,7 @@
     "Status": "Maintenance",
     "Hours_Used": 18900,
     "Price_THB": 4200000,
-    "Image_URL": "https://example.com/images/mazak_qt200.jpg"
+    "Image_URL": "pic03.jpg"
   },
   {
     "Machine_ID": "CNC-004",
@@ -69,7 +69,7 @@
     "Status": "Running",
     "Hours_Used": 10110,
     "Price_THB": 4800000,
-    "Image_URL": "https://example.com/images/okuma_lb3000.jpg"
+    "Image_URL": "pic04.jpg"
   },
   {
     "Machine_ID": "CNC-005",
@@ -87,7 +87,7 @@
     "Status": "Running",
     "Hours_Used": 4580,
     "Price_THB": 9500000,
-    "Image_URL": "https://example.com/images/haas_umc750.jpg"
+    "Image_URL": "pic05.jpg"
   },
   {
     "Machine_ID": "CNC-006",
@@ -105,7 +105,7 @@
     "Status": "Idle",
     "Hours_Used": 6210,
     "Price_THB": 7800000,
-    "Image_URL": "https://example.com/images/dmg_nlx2500.jpg"
+    "Image_URL": "pic06.jpg"
   },
   {
     "Machine_ID": "CNC-007",
@@ -123,7 +123,7 @@
     "Status": "Running",
     "Hours_Used": 2890,
     "Price_THB": 6700000,
-    "Image_URL": "https://example.com/images/makino_ps95.jpg"
+    "Image_URL": "pic07.jpg"
   },
   {
     "Machine_ID": "CNC-008",
@@ -141,7 +141,7 @@
     "Status": "Running",
     "Hours_Used": 15670,
     "Price_THB": 3100000,
-    "Image_URL": "https://example.com/images/doosan_dnm5700.jpg"
+    "Image_URL": "pic08.jpg"
   },
   {
     "Machine_ID": "CNC-009",
@@ -159,7 +159,7 @@
     "Status": "Running",
     "Hours_Used": 8420,
     "Price_THB": 12500000,
-    "Image_URL": "https://example.com/images/trumpf_trulaser3030.jpg"
+    "Image_URL": "pic09.jpg"
   },
   {
     "Machine_ID": "CNC-010",
@@ -177,6 +177,6 @@
     "Status": "Running",
     "Hours_Used": 3950,
     "Price_THB": 5600000,
-    "Image_URL": "https://example.com/images/hurco_vmx42i.jpg"
+    "Image_URL": "pic10.jpg"
   }
 ]
