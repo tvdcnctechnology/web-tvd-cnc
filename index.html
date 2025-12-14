@@ -15,6 +15,118 @@
 		<div id='google_translate_element'></div>
 		<div id="page-wrapper">
 
+
+<h2>CNC Machine Inventory</h2>
+
+<table id="cncTable" class="display" style="width:100%">
+  <thead>
+    <tr>
+      <th></th>
+      <th>Machine</th>
+      <th>Type</th>
+      <th>Controller</th>
+      <th>Axis</th>
+      <th>Status</th>
+      <th>Price (THB)</th>
+    </tr>
+  </thead>
+</table>
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<!-- DataTables JS -->
+<script src="https://cdn.datatables.net/1.13.8/js/jquery.dataTables.min.js"></script>
+
+<script>
+  function formatDetails(d) {
+    return `
+      <table class="details-table">
+        <tr>
+          <td class="details-label">Machine ID</td>
+          <td>${d.Machine_ID}</td>
+        </tr>
+        <tr>
+          <td class="details-label">Spindle Speed (RPM)</td>
+          <td>${d.Max_Spindle_Speed_RPM}</td>
+        </tr>
+        <tr>
+          <td class="details-label">Spindle Power (kW)</td>
+          <td>${d.Spindle_Power_kW}</td>
+        </tr>
+        <tr>
+          <td class="details-label">Worktable Size</td>
+          <td>${d.Worktable_Size_mm}</td>
+        </tr>
+        <tr>
+          <td class="details-label">Max Load (kg)</td>
+          <td>${d.Max_Load_kg}</td>
+        </tr>
+        <tr>
+          <td class="details-label">Year Installed</td>
+          <td>${d.Year_Installed}</td>
+        </tr>
+        <tr>
+          <td class="details-label">Hours Used</td>
+          <td>${d.Hours_Used.toLocaleString()}</td>
+        </tr>
+      </table>
+    `;
+  }
+
+  fetch("/data/tvd-cnc.json")
+    .then(res => res.json())
+    .then(data => {
+
+      const table = $('#cncTable').DataTable({
+        data: data,
+        columns: [
+          {
+            className: 'dt-control',
+            orderable: false,
+            data: null,
+            defaultContent: '+'
+          },
+          {
+            data: null,
+            render: function (data) {
+              return `
+                <div class="machine-cell">
+                  <img src="${data.Image_URL}" alt="${data.Machine_Name}">
+                  <div class="machine-name">${data.Machine_Name}</div>
+                </div>
+              `;
+            }
+          },
+          { data: 'Machine_Type' },
+          { data: 'Controller' },
+          { data: 'Axis_Count' },
+          { data: 'Status' },
+          {
+            data: 'Price_THB',
+            render: function (data) {
+              return '฿ ' + data.toLocaleString();
+            }
+          }
+        ],
+        order: [[1, 'asc']]
+      });
+
+      $('#cncTable tbody').on('click', 'td.dt-control', function () {
+        const tr = $(this).closest('tr');
+        const row = table.row(tr);
+
+        if (row.child.isShown()) {
+          row.child.hide();
+          tr.find('td.dt-control').text('+');
+        } else {
+          row.child(formatDetails(row.data())).show();
+          tr.find('td.dt-control').text('−');
+        }
+      });
+    });
+</script>
+
 			<!-- Header -->
 				<header id="header">
 					<div class="logo container">
