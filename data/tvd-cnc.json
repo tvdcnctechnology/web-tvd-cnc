@@ -159,7 +159,7 @@
     "Status": "Running",
     "Hours_Used": 8420,
     "Price_THB": 12500000,
-    "Image_URL": "images/pic09.jpg"
+    "Image_URL": "images/pic07.jpg"
   },
   {
     "Machine_ID": "CNC-010",
@@ -177,6 +177,6 @@
     "Status": "Running",
     "Hours_Used": 3950,
     "Price_THB": 5600000,
-    "Image_URL": "images/pic10.jpg"
+    "Image_URL": "images/pic08.jpg"
   }
 ]
