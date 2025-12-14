@@ -2,6 +2,8 @@
   {
     "Machine_ID": "CNC-001",
     "Machine_Name": "HAAS VF-2",
+    "Stock": 1,
+    "Image_URL": "images/pic01.jpg",
     "Machine_Type": "Vertical Machining Center",
     "Controller": "Fanuc",
     "Axis_Count": 3,
@@ -14,12 +16,13 @@
     "Year_Installed": 2019,
     "Status": "Running",
     "Hours_Used": 12450,
-    "Price_THB": 3500000,
-    "Image_URL": "images/pic01.jpg"
+    "Price_THB": 3500000
   },
   {
     "Machine_ID": "CNC-002",
     "Machine_Name": "DMG MORI CMX 1100 V",
+    "Stock": 10,
+    "Image_URL": "images/pic02.jpg",
     "Machine_Type": "Vertical Machining Center",
     "Controller": "Siemens",
     "Axis_Count": 3,
@@ -32,12 +35,13 @@
     "Year_Installed": 2021,
     "Status": "Running",
     "Hours_Used": 7320,
-    "Price_THB": "สอบถามราคา 063-2279971",
-    "Image_URL": "images/pic02.jpg"
+    "Price_THB": "สอบถามราคา 063-2279971"
   },
   {
     "Machine_ID": "CNC-003",
     "Machine_Name": "MAZAK QT-200",
+    "Stock": 20,
+    "Image_URL": "images/pic03.jpg",
     "Machine_Type": "Lathe",
     "Controller": "Mazatrol",
     "Axis_Count": 2,
@@ -50,12 +54,13 @@
     "Year_Installed": 2018,
     "Status": "Maintenance",
     "Hours_Used": 18900,
-    "Price_THB": 4200000,
-    "Image_URL": "images/pic03.jpg"
+    "Price_THB": 4200000
   },
   {
     "Machine_ID": "CNC-004",
     "Machine_Name": "OKUMA LB3000",
+    "Stock": 3,
+    "Image_URL": "images/pic04.jpg",
     "Machine_Type": "Lathe",
     "Controller": "OSP-P300",
     "Axis_Count": 2,
@@ -68,12 +73,13 @@
     "Year_Installed": 2020,
     "Status": "Running",
     "Hours_Used": 10110,
-    "Price_THB": 4800000,
-    "Image_URL": "images/pic04.jpg"
+    "Price_THB": 4800000
   },
   {
     "Machine_ID": "CNC-005",
     "Machine_Name": "HAAS UMC-750",
+    "Stock": 1,
+    "Image_URL": "images/pic05.jpg",
     "Machine_Type": "5-Axis Machining Center",
     "Controller": "Fanuc",
     "Axis_Count": 5,
@@ -86,12 +92,13 @@
     "Year_Installed": 2022,
     "Status": "Running",
     "Hours_Used": 4580,
-    "Price_THB": 9500000,
-    "Image_URL": "images/pic05.jpg"
+    "Price_THB": 9500000
   },
   {
     "Machine_ID": "CNC-006",
     "Machine_Name": "DMG MORI NLX 2500",
+    "Stock": 4,
+    "Image_URL": "images/pic06.jpg",
     "Machine_Type": "Lathe",
     "Controller": "Siemens",
     "Axis_Count": 2,
@@ -104,12 +111,13 @@
     "Year_Installed": 2021,
     "Status": "Idle",
     "Hours_Used": 6210,
-    "Price_THB": 7800000,
-    "Image_URL": "images/pic06.jpg"
+    "Price_THB": 7800000
   },
   {
     "Machine_ID": "CNC-007",
     "Machine_Name": "MAKINO PS95",
+    "Stock": 5,
+    "Image_URL": "images/pic07.jpg",
     "Machine_Type": "Vertical Machining Center",
     "Controller": "Fanuc",
     "Axis_Count": 3,
@@ -122,12 +130,13 @@
     "Year_Installed": 2023,
     "Status": "Running",
     "Hours_Used": 2890,
-    "Price_THB": 6700000,
-    "Image_URL": "images/pic07.jpg"
+    "Price_THB": 6700000
   },
   {
     "Machine_ID": "CNC-008",
     "Machine_Name": "DOOSAN DNM 5700",
+    "Stock": 9,
+    "Image_URL": "images/pic08.jpg",
     "Machine_Type": "Vertical Machining Center",
     "Controller": "Fanuc",
     "Axis_Count": 3,
@@ -140,12 +149,13 @@
     "Year_Installed": 2019,
     "Status": "Running",
     "Hours_Used": 15670,
-    "Price_THB": 3100000,
-    "Image_URL": "images/pic08.jpg"
+    "Price_THB": 3100000
   },
   {
     "Machine_ID": "CNC-009",
     "Machine_Name": "TRUMPF TruLaser 3030",
+    "Stock": 10,
+    "Image_URL": "images/pic07.jpg",
     "Machine_Type": "Laser Cutting Machine",
     "Controller": "Siemens",
     "Axis_Count": 3,
@@ -158,12 +168,13 @@
     "Year_Installed": 2020,
     "Status": "Running",
     "Hours_Used": 8420,
-    "Price_THB": 12500000,
-    "Image_URL": "images/pic07.jpg"
+    "Price_THB": 12500000
   },
   {
     "Machine_ID": "CNC-010",
     "Machine_Name": "HURCO VMX42i",
+    "Stock": 1,
+    "Image_URL": "images/pic08.jpg",
     "Machine_Type": "Vertical Machining Center",
     "Controller": "Hurco WinMax",
     "Axis_Count": 3,
@@ -176,7 +187,6 @@
     "Year_Installed": 2022,
     "Status": "Running",
     "Hours_Used": 3950,
-    "Price_THB": 5600000,
-    "Image_URL": "images/pic08.jpg"
+    "Price_THB": 5600000
   }
 ]
