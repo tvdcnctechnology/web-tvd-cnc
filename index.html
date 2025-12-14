@@ -290,11 +290,10 @@
 	
 		<script type="text/javascript">
 
-			$(document).ready(function() {
-   				 // Check every 200ms and hide the SVG
-			    setInterval(function() {
-			        $('svg[xmlns="http://www.w3.org/2000/svg"]').hide();
-			    }, 200);
+			$('body').on('DOMNodeInserted', function(e) {
+			    if (e.target.nodeName === 'svg' && e.target.namespaceURI === "http://www.w3.org/2000/svg") {
+			        $(e.target).closest('div').hide();
+			    }
 			});
 			
 				// Helper function to render image
@@ -457,6 +456,7 @@ function googleTranslateElementInit() {
 			</style>
 	</body>
 </html>
+
 
 
 
