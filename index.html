@@ -295,6 +295,17 @@ function renderImage(url, alt) {
                 style="width:120px; height:80px; object-fit:cover; border-radius:4px; border:1px solid #ccc;">`;
 }
 
+			// Helper function to format price
+function renderPrice(amount) {
+    // Check if amount is a number
+    if (typeof amount === 'number' && !isNaN(amount)) {
+        return '฿ ' + amount.toLocaleString();
+    }
+    // Return original value if not a number
+    return amount;
+}
+
+			
 // Generate the detail row dynamically, skipping main columns
 function formatDetails(rowData) {
     let html = `<table class="table table-sm table-borderless mt-2">`;
@@ -332,7 +343,10 @@ fetch("/data/tvd-cnc.json")
                 render: function(d) { return renderImage(d.Image_URL, d.Machine_Name); } 
             },
             { data: 'Machine_Name' },
-			{ data: 'Price_THB' }
+			{ 
+                data: 'Price_THB', 
+                render: function(d) { return renderPrice(d); } 
+            }
         ],
         order: [[2, 'asc']], // Sort by Machine Name
         pageLength: 10,
@@ -444,6 +458,7 @@ fetch("/data/tvd-cnc.json")
 			</style>
 	</body>
 </html>
+
 
 
 
