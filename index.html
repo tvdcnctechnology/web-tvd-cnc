@@ -25,10 +25,10 @@
 		<div id="page-wrapper">
 
 			<!-- Header -->
-				<header id="header">
+			<header id="header">
 					<div class="logo container">
 						<div>
-							<h1><a href="index.html" id="logo">TVD-CNC</a></h1>
+							<h1><a href="index.html" id="logo"><span ><img src="images/logo.png"  class="logo-img"  alt="TVD-CNC" />  TVD-CNC</span></a></h1>
 							<p>We cater to automotive, aerospace, robotics, and industrial equipment sectors.</p>
 						</div>
 					</div>
@@ -461,10 +461,24 @@ function googleTranslateElementInit() {
 			    z-index: 99999;    /* Make sure it stays on top */
 			}
 
+							/* Default: desktop */
+			.logo-img {
+				width: 200px;
+				height: auto;
+			}
+
+			/* Screens smaller than 980px */
+			@media (max-width: 979px) {
+				.logo-img {
+					width: 55px;
+				}
+			}
+
 
 			</style>
 	</body>
 </html>
+
 
 
 
