@@ -402,14 +402,17 @@ fetch("/data/tvd-cnc.json")
 			  }
 			
 			  // Initial abbreviation
-			  setTimeout(abbreviateLanguages, 500);
+			  var to = setTimeout(abbreviateLanguages, 500);
 			
 			  // Watch for changes so selected value stays abbreviated
 			  const select = document.querySelector('#google_translate_element select');
 			  if (select) {
 			    const observer = new MutationObserver(abbreviateLanguages);
 			    observer.observe(select, { childList: true, subtree: true });
-			  }
+			  }else
+			  {
+				  clearTimeout(to);
+			  {
 			}
 			
 			</script>
@@ -446,6 +449,7 @@ fetch("/data/tvd-cnc.json")
 			</style>
 	</body>
 </html>
+
 
 
 
