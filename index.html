@@ -302,7 +302,7 @@
 
 
 				// Show fullscreen popup when image is clicked
-    $(document).on('click', '.popup-image', function() {
+    $(document).on('click', '.table-popup-image', function() {
         const src = $(this).attr('src');
         $('#imagePopup img').attr('src', src);
         $('#imagePopup').fadeIn();
@@ -316,7 +316,7 @@
 			
 				// Helper function to render image
 function renderImage(url, alt) {
-    return `<img class="popup-image" src="${url}" alt="${alt}" 
+    return `<img class="table-popup-image" src="${url}" alt="${alt}" 
                 style="width:120px; height:80px; object-fit:cover; border-radius:4px; border:1px solid #ccc;">`;
 	
 }
@@ -569,6 +569,7 @@ function googleTranslateElementInit() {
 </div>
 	</body>
 </html>
+
 
 
 
