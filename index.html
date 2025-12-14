@@ -538,21 +538,31 @@ function googleTranslateElementInit() {
   }
 }
 
+<style>
 #imagePopup {
-    display: none;
+    display: none;               /* Hidden by default */
     position: fixed;
-    top: 0; left: 0;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(0,0,0,0.9);
-    justify-content: center;
-    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100vw;                /* Full width */
+    height: 100vh;               /* Full height */
+    background: rgba(0,0,0,0.9); /* Semi-transparent dark overlay */
     z-index: 9999;
+    
+    /* Flexbox to center content */
+    display: flex;
+    justify-content: center;     /* Horizontal center */
+    align-items: center;         /* Vertical center */
 }
+
 #imagePopup img {
-    max-width: 95%;
-    max-height: 95%;
+    max-width: 90%;   /* Scale to fit screen */
+    max-height: 90%;
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
+</style>
+
 			</style>
 
 		<div id="imagePopup">
@@ -560,6 +570,7 @@ function googleTranslateElementInit() {
 </div>
 	</body>
 </html>
+
 
 
 
