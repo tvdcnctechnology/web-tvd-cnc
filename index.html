@@ -409,10 +409,8 @@ fetch("/data/tvd-cnc.json")
 			  if (select) {
 			    const observer = new MutationObserver(abbreviateLanguages);
 			    observer.observe(select, { childList: true, subtree: true });
-			  }else
-			  {
 				  clearTimeout(to);
-			  {
+			  }
 			}
 			
 			</script>
@@ -449,6 +447,7 @@ fetch("/data/tvd-cnc.json")
 			</style>
 	</body>
 </html>
+
 
 
 
