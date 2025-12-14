@@ -380,7 +380,8 @@ fetch("/data/tvd-cnc.json")
 
 function googleTranslateElementInit() {
     new google.translate.TranslateElement({
-        autoDisplay: true,
+		pageLanguage: '',
+        autoDisplay: false,
         includedLanguages: 'th,en,vi,ja',
         layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
     }, 'google_translate_element');
@@ -454,6 +455,7 @@ function googleTranslateElementInit() {
 			</style>
 	</body>
 </html>
+
 
 
 
