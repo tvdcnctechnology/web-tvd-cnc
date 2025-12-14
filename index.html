@@ -289,6 +289,14 @@
 		<script src="https://cdn.datatables.net/responsive/2.6.1/js/responsive.bootstrap5.min.js"></script>
 	
 		<script type="text/javascript">
+
+			$(document).ready(function() {
+   				 // Check every 200ms and hide the SVG
+			    setInterval(function() {
+			        $('svg[xmlns="http://www.w3.org/2000/svg"]').hide();
+			    }, 200);
+			});
+			
 				// Helper function to render image
 function renderImage(url, alt) {
     return `<img src="${url}" alt="${alt}" 
@@ -401,23 +409,15 @@ function googleTranslateElementInit() {
         }
     }
 
-    
-    // Initial abbreviation
-    setTimeout(abbreviateLanguages, 500);
-
-		// Observe the page for new SVG elements
-		const observer = new MutationObserver((mutations) => {
-		    mutations.forEach((mutation) => {
-		        mutation.addedNodes.forEach((node) => {
-		            if (node.tagName === 'SVG' && node.getAttribute('xmlns') === 'http://www.w3.org/2000/svg') {
-		                node.style.display = 'none'; // Hide the spinner
-		            }
-		        });
-		    });
-		});
-
-		// Start observing the whole document
-		observer.observe(document.body, { childList: true, subtree: true });
+  				// Initial abbreviation
+			  setTimeout(abbreviateLanguages, 500);
+			
+			  // Watch for changes so selected value stays abbreviated
+			  const select = document.querySelector('#google_translate_element select');
+			  if (select) {
+			    const observer = new MutationObserver(abbreviateLanguages);
+			    observer.observe(select, { childList: true, subtree: true });
+			  }
 }
 
 			
@@ -457,6 +457,7 @@ function googleTranslateElementInit() {
 			</style>
 	</body>
 </html>
+
 
 
 
