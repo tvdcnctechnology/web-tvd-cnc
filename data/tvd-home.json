@@ -30,5 +30,33 @@
   {
     "key": "contact_title",
     "value": "ติดต่อเรา"
+  },
+  {
+    "key": "menu_home",
+    "value": "หน้าแรก"
+  },
+  {
+    "key": "menu_product",
+    "value": "สินค้า"
+  },
+  {
+    "key": "menu_service",
+    "value": "บริการ"
+  },
+  {
+    "key": "menu_export",
+    "value": "ความเชี่ยวชาญ"
+  },
+  {
+    "key": "menu_information",
+    "value": "สารสนเทศ"
+  },
+  {
+    "key": "menu_aboutus",
+    "value": "เกี่ยวกับเรา"
+  },
+  {
+    "key": "menu_contact",
+    "value": "ติดต่อเรา"
   }
 ]
