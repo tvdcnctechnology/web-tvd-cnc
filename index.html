@@ -405,14 +405,19 @@ function googleTranslateElementInit() {
     // Initial abbreviation
     setTimeout(abbreviateLanguages, 500);
 
-		const observer = new MutationObserver(() => {
-		    abbreviateLanguages();
+		// Observe the page for new SVG elements
+		const observer = new MutationObserver((mutations) => {
+		    mutations.forEach((mutation) => {
+		        mutation.addedNodes.forEach((node) => {
+		            if (node.tagName === 'SVG' && node.getAttribute('xmlns') === 'http://www.w3.org/2000/svg') {
+		                node.style.display = 'none'; // Hide the spinner
+		            }
+		        });
+		    });
 		});
-		
-		const translateElement = document.getElementById('google_translate_element');
-		if (translateElement) {
-		    observer.observe(translateElement, { childList: true, subtree: true });
-		}
+
+		// Start observing the whole document
+		observer.observe(document.body, { childList: true, subtree: true });
 }
 
 			
@@ -447,13 +452,12 @@ function googleTranslateElementInit() {
 			    right: 0px;      /* Distance from right */
 			    z-index: 99999;    /* Make sure it stays on top */
 			}
-			svg[xmlns="http://www.w3.org/2000/svg"] {
-    			display: none !important;
-			}
+
 
 			</style>
 	</body>
 </html>
+
 
 
 
