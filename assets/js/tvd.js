@@ -91,8 +91,15 @@ fetch("data/tvd-contact.json")
               el.src = item.value;
             }
             else if (item.key.endsWith("_map") && el.tagName.toLowerCase() === "iframe") {
-              debugger;
               el.src = item.value;
+            }
+            else if (item.key.endsWith("_web") && el.tagName.toLowerCase() === "a") {
+              el.href = item.value;
+              el.innerHTML = item.value;
+            }
+            else if (item.key.endsWith("_mail") && el.tagName.toLowerCase() === "a") {
+              el.href = "mailto:"+ item.value;
+              el.innerHTML = item.value;
             }
              else {
               // Otherwise, update innerHTML
