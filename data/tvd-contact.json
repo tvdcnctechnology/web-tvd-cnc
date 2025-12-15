@@ -17,7 +17,7 @@
   },
   {
     "key": "contact_web",
-    "value": "https://tvd-cnc.com"
+    "value": "https://tvdcnc.com"
   },
   {
     "key": "contact_address ",
@@ -62,5 +62,9 @@
   {
     "key": "contact_desinged_title",
     "value": "ออกแบบโดย"
+  },
+  {
+    "key": "contact_desinged_fb",
+    "value": "https://www.facebook.com/ygiaphan"
   }
 ]
