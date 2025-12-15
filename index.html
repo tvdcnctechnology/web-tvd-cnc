@@ -395,6 +395,9 @@
   <script src="https://cdn.datatables.net/responsive/2.6.1/js/responsive.bootstrap5.min.js"></script>
   <script type="text/javascript">
     $(document).ready(function () {
+
+      $('#titleBar .title').wrap('<marquee behavior="scroll" direction="left" scrollamount="5"></marquee>');
+      
       setInterval(() => {
         $('svg').each(function () {
           if (this.namespaceURI === "http://www.w3.org/2000/svg") {
