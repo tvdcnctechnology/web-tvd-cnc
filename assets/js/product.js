@@ -39,7 +39,6 @@ const ICON_COLLAPSED = '➤';
 const ICON_EXPANDED = '▼';
 // Fetch data and initialize DataTable
 fetch("data/tvd-products.json").then(res => res.json()).then(data => {
-    debugger;
     const table = $('#cncTable').DataTable({
         data: data,
         columns: [{
