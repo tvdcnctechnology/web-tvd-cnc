@@ -5,7 +5,17 @@
         data.forEach(item => {
           // Use class selector so multiple elements can be updated
           const elements = document.querySelectorAll(`.${item.key}`);
-          elements.forEach(el => el.innerHTML = item.value);
+
+          elements.forEach(el => {
+            // If the key ends with "_url", set src attribute
+          if (item.key.endsWith("search_label") && el.tagName.toLowerCase() === "label" && el.closest(".dataTables_filter")) {
+              // Update only the label inside .dataTables_filter
+              el.innerHTML = item.value;
+          } else {
+              // Otherwise, update innerHTML for other elements
+              el.innerHTML = item.value;
+          }
+          });
         });
       })
       .catch(error => console.error("Error fetching data:", error));
