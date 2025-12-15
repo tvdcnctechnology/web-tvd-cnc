@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "key": "contact_company",
+    "value": "บริษัท ทีวีดี ซีเอ็นซี เทคโนโลยี จำกัด"
+  },
+  {
+    "key": "contact_line",
+    "value": "NguyenTien CNCrepair"
+  },
+  {
+    "key": "contact_phone",
+    "value": "0837162362 - 0973099378"
+  },
+  {
+    "key": "contact_mail",
+    "value": "tvdcnctechnology@gmail.com"
+  },
+  {
+    "key": "contact_web",
+    "value": "tvdcnctechnology.com"
+  },
+  {
+    "key": "contact_address ",
+    "value": "เลขที่ 188/1 หมู่ที่ 1 ถนนบางนา-ตราด ตําบลบางวัว อําเภอบางปะกง จังหวัดฉะเชิงเทรา"
+  },
+  {
+    "key": "contact_map",
+    "value": "https://maps.app.goo.gl/4dW9gtbsvqrJUbGF7?g_st=com.google.maps.preview.copy"
+  }
+]
