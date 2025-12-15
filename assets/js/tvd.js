@@ -97,6 +97,9 @@ fetch("data/tvd-contact.json")
               el.href = item.value;
               el.innerHTML = item.value;
             }
+            else if (item.key.endsWith("_fb") && el.tagName.toLowerCase() === "a") {
+              el.href = item.value;
+            }
             else if (item.key.endsWith("_mail") && el.tagName.toLowerCase() === "a") {
               el.href = "mailto:"+ item.value;
               el.innerHTML = item.value;
