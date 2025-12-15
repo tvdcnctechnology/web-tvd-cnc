@@ -441,6 +441,9 @@
         return html;
       }
 
+      // Use right-pointing ► and down-pointing ▼
+const ICON_COLLAPSED = '➤';
+const ICON_EXPANDED = '⮟';
       // Fetch data and initialize DataTable
       fetch("data/tvd-products.json").then(res => res.json()).then(data => {
         const table = $('#cncTable').DataTable({
@@ -449,7 +452,7 @@
             className: 'dt-control',
             orderable: false,
             data: null,
-            defaultContent: '+'
+            defaultContent: ICON_COLLAPSED
           }, {
             data: null,
             render: function(d) {
@@ -490,18 +493,35 @@
               search: "ค้นหา :" 
           }
         });
-        // Expand/Collapse child row on click
-        $('#cncTable tbody').on('click', 'td.dt-control', function() {
-          const tr = $(this).closest('tr');
-          const row = table.row(tr);
-          if (row.child.isShown()) {
-            row.child.hide();
-            tr.find('td.dt-control').text('+');
-          } else {
-            row.child(formatDetails(row.data())).show();
-            tr.find('td.dt-control').text('−');
-          }
-        });
+         // Expand/Collapse child row on click, excluding image column (index 1)
+    $('#cncTable tbody').on('click', 'tr td:not(:first-child):not(:nth-child(2))', function() {
+      const tr = $(this).closest('tr');
+      const row = table.row(tr);
+      const controlCell = tr.find('td.dt-control');
+
+      if (row.child.isShown()) {
+        row.child.hide();
+        controlCell.text(ICON_COLLAPSED);
+      } else {
+        row.child(formatDetails(row.data())).show();
+        controlCell.text(ICON_EXPANDED);
+      }
+    });
+
+    // Optionally keep the first column (+/-) clickable too
+    $('#cncTable tbody').on('click', 'td.dt-control', function() {
+      const tr = $(this).closest('tr');
+      const row = table.row(tr);
+      const controlCell = $(this);
+
+      if (row.child.isShown()) {
+        row.child.hide();
+        controlCell.text(ICON_COLLAPSED);
+      } else {
+        row.child(formatDetails(row.data())).show();
+        controlCell.text(ICON_EXPANDED);
+      }
+    });
       });
 
       function googleTranslateElementInit() {
