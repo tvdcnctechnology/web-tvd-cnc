@@ -428,6 +428,7 @@
 						</table>`;
         return html;
       }
+
       // Fetch data and initialize DataTable
       fetch("data/tvd-products.json").then(res => res.json()).then(data => {
         const table = $('#cncTable').DataTable({
@@ -472,7 +473,10 @@
 		      dom: 'fltip',
           pagingType: "numbers", // show only page numbers
           info: false,
-          lengthChange: false 
+          lengthChange: false,
+          language: {
+              search: "ค้นหา :" 
+          }
         });
         // Expand/Collapse child row on click
         $('#cncTable tbody').on('click', 'td.dt-control', function() {
