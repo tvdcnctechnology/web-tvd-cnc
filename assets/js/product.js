@@ -3,9 +3,26 @@
 // Helper function to render image
 function renderImage(url, alt) {
     return `
+        <div style="position:relative; display:inline-block;">
+					
 					<img class="table-popup-image" src="${url}" alt="${alt}" 
-                style="width:120px; height:80px; object-fit:cover; border-radius:4px; border:1px solid #ccc;">`;
+                style="width:120px; height:80px; object-fit:cover; border-radius:4px; border:1px solid #ccc;">
+
+            <span style="
+                position:absolute;
+                top:4px;
+                right:4px;
+                background:rgba(0,0,0,0.6);
+                color:#fff;
+                padding:2px 5px;
+                border-radius:50%;
+                font-size:12px;
+                pointer-events:none;
+            ">⤢</span>
+
+        </div>`;
 }
+
 // Helper function to format price
 function renderPrice(amount) {
     // Check if amount is a number
