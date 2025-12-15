@@ -34,6 +34,7 @@
   .goog-te-gadget {
       color: transparent !important;
       font-size: 0px;
+       width:50px !important;
   }
 
   .goog-text-highlight {
