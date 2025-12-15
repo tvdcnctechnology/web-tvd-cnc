@@ -1,132 +1,141 @@
   /*Banner */
   .logo-banner {
       max-width: 200px;
-    }
-    .company-title {
+  }
+
+  .company-title {
       font-size: 2rem;
       font-weight: bold;
-    }
-    .vision-title {
+  }
+
+  .vision-title {
       font-size: 1rem;
       color: #555;
-    }
-    /* Optional: Fix the offcanvas menu to full height */
-    .offcanvas-start {
+  }
+
+  /* Optional: Fix the offcanvas menu to full height */
+  .offcanvas-start {
       width: 250px;
-    }
+  }
 
 
-/*Google Translate*/
-body>.skiptranslate,
-      .goog-logo-link,
-      .gskiptranslate,
-      .goog-te-gadget span,
-      .goog-te-banner-frame,
-      #goog-gt-tt,
-      .goog-te-balloon-frame,
-      div#goog-gt- {
-        display: none !important;
+  /*Google Translate*/
+  body>.skiptranslate,
+  .goog-logo-link,
+  .gskiptranslate,
+  .goog-te-gadget span,
+  .goog-te-banner-frame,
+  #goog-gt-tt,
+  .goog-te-balloon-frame,
+  div#goog-gt- {
+      display: none !important;
+  }
+
+  .goog-te-gadget {
+      color: transparent !important;
+      font-size: 0px;
+  }
+
+  .goog-text-highlight {
+      background: none !important;
+      box-shadow: none !important;
+  }
+
+  #google_translate_element select {
+      background: #3f4c40;
+      color: #fff4e4;
+      border: none;
+      font-weight: bold;
+      border-radius: 3px;
+      padding: 8px 12px
+  }
+
+  #google_translate_element {
+      position: fixed;
+      /* Float relative to viewport */
+      top: 0px;
+      /* Distance from top */
+      right: 0px;
+      /* Distance from right */
+      z-index: 99999;
+      /* Make sure it stays on top */
+  }
+
+  /*Products Gridview*/
+  /* For mobile devices (max-width 768px) */
+  @media (max-width: 768px) {
+      #cncTable {
+          font-size: x-small;
       }
+  }
 
-      .goog-te-gadget {
-        color: transparent !important;
-        font-size: 0px;
-      }
+  #cncTable th:nth-child(3),
+  #cncTable th:nth-child(4),
+  #cncTable th:nth-child(5) {
+      text-align: center;
+  }
 
-      .goog-text-highlight {
-        background: none !important;
-        box-shadow: none !important;
-      }
+  #cncTable td:nth-child(4),
+  #cncTable td:nth-child(5) {
+      text-align: right;
+  }
 
-      #google_translate_element select {
-        background: #3f4c40;
-        color: #fff4e4;
-        border: none;
-        font-weight: bold;
-        border-radius: 3px;
-        padding: 8px 12px
-      }
+  /* Make label and input inline */
+  .dataTables_filter label {
+      display: flex;
+      /* flex makes children inline horizontally */
+      align-items: center;
+      /* vertically center the text and input */
+      gap: 8px;
+      /* space between label and input */
+      width: 100%;
+      /* make label container full width */
+      padding: 10px;
+  }
 
-      #google_translate_element {
-        position: fixed;
-        /* Float relative to viewport */
-        top: 0px;
-        /* Distance from top */
-        right: 0px;
-        /* Distance from right */
-        z-index: 99999;
-        /* Make sure it stays on top */
-      }
+  /* Make input take full width of remaining space */
+  .dataTables_filter input {
+      flex: 1;
+      /* input expands to fill remaining space */
+      box-sizing: border-box;
+      /* ensures padding doesn't break width */
+      padding: 10px;
+  }
 
-/*Products Gridview*/
-/* For mobile devices (max-width 768px) */
-@media (max-width: 768px) {
-#cncTable {
-    font-size: x-small;
-}
-}
+  /*Image Popup*/
+  #imagePopup {
+      display: none;
+      /* Hidden by default */
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      /* Full width */
+      height: 100vh;
+      /* Full height */
+      background: rgba(0, 0, 0, 0.9);
+      /* Semi-transparent dark overlay */
+      z-index: 9999;
+      /* Flexbox to center content */
+      display: flex;
+      justify-content: center;
+      /* Horizontal center */
+      align-items: center;
+      /* Vertical center */
+  }
 
-#cncTable th:nth-child(3),
-#cncTable th:nth-child(4),
-#cncTable th:nth-child(5) {
-text-align: center;
-}
-
-#cncTable td:nth-child(4),
-#cncTable td:nth-child(5) {
-text-align: right;
-}
-
-/* Make label and input inline */
-.dataTables_filter label {
-    display: flex;           /* flex makes children inline horizontally */
-    align-items: center;     /* vertically center the text and input */
-    gap: 8px;                /* space between label and input */
-    width: 100%;             /* make label container full width */
-    padding: 10px;
-}
-
-/* Make input take full width of remaining space */
-.dataTables_filter input {
-    flex: 1;                 /* input expands to fill remaining space */
-    box-sizing: border-box;  /* ensures padding doesn't break width */
-    padding: 10px;
-}
-
-/*Image Popup*/
-#imagePopup {
-        display: none;
-        /* Hidden by default */
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        /* Full width */
-        height: 100vh;
-        /* Full height */
-        background: rgba(0, 0, 0, 0.9);
-        /* Semi-transparent dark overlay */
-        z-index: 9999;
-        /* Flexbox to center content */
-        display: flex;
-        justify-content: center;
-        /* Horizontal center */
-        align-items: center;
-        /* Vertical center */
-      }
-
-      #imagePopup img {
-        max-width: 90%;
-        /* Scale to fit screen */
-        max-height: 90%;
-        border-radius: 8px;
-        /* Optional: rounded corners */
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-      }
+  #imagePopup img {
+      max-width: 90%;
+      /* Scale to fit screen */
+      max-height: 90%;
+      border-radius: 8px;
+      /* Optional: rounded corners */
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
 
 
-/*Contact */
-#contact .text-primary {
+  /*Contact */
+  #contact .text-primary {
       --bs-text-opacity: 1;
       color: rgb(4 64 133) !important;
   }
