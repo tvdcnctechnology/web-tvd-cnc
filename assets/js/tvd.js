@@ -89,7 +89,12 @@ fetch("data/tvd-contact.json")
             // If the key ends with "_url", set src attribute
             if (item.key.endsWith("_url") && el.tagName.toLowerCase() === "img") {
               el.src = item.value;
-            } else {
+            }
+            else if (item.key.endsWith("_map") && el.tagName.toLowerCase() === "iframe") {
+              debugger;
+              el.src = item.value;
+            }
+             else {
               // Otherwise, update innerHTML
               el.innerHTML = item.value;
             }
