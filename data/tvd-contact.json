@@ -26,5 +26,29 @@
   {
     "key": "contact_map",
     "value": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3878.8542825106024!2d100.96385490000002!3d13.544529099999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d470026eea89f%3A0xa8402c344312dd6!2z4Lia4Lij4Li04Lip4Lix4LiXIOC4l-C4teC4p-C4teC4lOC4tSDguIvguLXguYDguK3guYfguJnguIvguLUg4LmA4LiX4LiE4LmC4LiZ4LmC4Lil4Lii4Li1IOC4iOC4s-C4geC4seC4lA!5e0!3m2!1sen!2sth!4v1765784101413!5m2!1sen!2sth"
+  },
+  {
+    "key": "contact_info_title",
+    "value": "ข้อมูลการติดต่อ"
+  },
+  {
+    "key": "contact_company_title",
+    "value": "บริษัท"
+  },
+  {
+    "key": "contact_phone_title",
+    "value": "โทรศัพท์"
+  },
+  {
+    "key": "contact_mail_title",
+    "value": "อีเมล"
+  },
+  {
+    "key": "contact_web_title",
+    "value": "เว็บไซต์"
+  },
+  {
+    "key": "contact_address_title",
+    "value": "ที่อยู่"
   }
 ]
