@@ -50,5 +50,17 @@
   {
     "key": "contact_address_title",
     "value": "ที่อยู่"
+  },
+  {
+    "key": "contact_copyright",
+    "value": "สงวนลิขสิทธิ์ทุกประการ"
+  },
+  {
+    "key": "coontat_desinged_by",
+    "value": "Ý Gia Phan"
+  },
+  {
+    "key": "coontat_desinged_title",
+    "value": "ออกแบบโดย"
   }
 ]
