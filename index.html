@@ -469,7 +469,10 @@
             targets: 0
           }],
           autoWidth: false,
-		  dom: 'fltip'
+		      dom: 'fltip',
+          pagingType: "numbers", // show only page numbers
+          info: false,
+          lengthChange: false 
         });
         // Expand/Collapse child row on click
         $('#cncTable tbody').on('click', 'td.dt-control', function() {
@@ -633,6 +636,22 @@
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
       }
 
+
+/* Make label and input inline */
+.dataTables_filter label {
+    display: flex;           /* flex makes children inline horizontally */
+    align-items: center;     /* vertically center the text and input */
+    gap: 8px;                /* space between label and input */
+    width: 100%;             /* make label container full width */
+    padding: 10px;
+}
+
+/* Make input take full width of remaining space */
+.dataTables_filter input {
+    flex: 1;                 /* input expands to fill remaining space */
+    box-sizing: border-box;  /* ensures padding doesn't break width */
+    padding: 10px;
+}
 
 
     </style>
