@@ -133,7 +133,7 @@ input, select, textarea {
 
 			h2.major span {
 				font-size: 2.5rem;
-				background: #fff;
+				background: #ffffff00;
 				position: relative;
 				display: inline-block;
 				top: -0.775em;
@@ -2542,7 +2542,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background: #fff;
+		background: #ffffff00;
 		border-top: solid 5px rgb(88 142 223 / 32%);
 		border-bottom: solid 5px rgb(88 142 223 / 32%);
 		border-top-width: 35px;
@@ -2577,7 +2577,7 @@ input, select, textarea {
 		}
 
 			#footer h2.major span {
-				background: #f2f5f3;
+				background: #f2f5f300;
 			}
 
 /* Copyright */
