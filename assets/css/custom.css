@@ -43,13 +43,13 @@
     max-width: 250px;
 }
 
-.company-title {
+.company_title {
     color: #044085;
     font-size: 3.5rem !important;
     font-weight: bold;
 }
 
-.vision-title {
+.vision_title {
       font-size: 2rem;
       color: #555;
 }
@@ -63,12 +63,12 @@ h2,h3 {
     width: 200px;
     max-width: 200px;
 }
-.company-title {
+.company_title {
     color: #044085;
     font-size: 1.5rem !important;
     font-weight: bolder;
 }
-.vision-title {
+.vision_title {
       font-size: 1rem;
       color: #555;
 }
