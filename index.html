@@ -258,7 +258,7 @@
                         <i class="fa-solid fa-industry text-primary fs-4 me-3"></i>
                         <div>
                           <strong class="d-bloc contact_company_title">contact_company_title</strong>
-                          <p class="mb-0 contact_company" id="logo">
+                          <p class="mb-0 contact_company">
                             contact_company
                           </p>
                         </div>
@@ -376,9 +376,6 @@
   <script src="https://cdn.datatables.net/responsive/2.6.1/js/responsive.bootstrap5.min.js"></script>
   <script type="text/javascript">
     $(document).ready(function () {
-
-      $('#titleBar .title').wrap('<marquee behavior="scroll" direction="left" scrollamount="5"></marquee>');
-      
       setInterval(() => {
         $('svg').each(function () {
           if (this.namespaceURI === "http://www.w3.org/2000/svg") {
