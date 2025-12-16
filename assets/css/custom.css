@@ -1,3 +1,24 @@
+  .info_detail_content,.aboutus_detail {
+    text-indent: 2em;          /* ย่อหน้าแรก */
+    white-space: pre-line;     /* ให้ขึ้นบรรทัดใหม่ตามที่พิมพ์ไว้ */
+    text-align: left;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.6;
+}
+
+
+  body{
+    position: relative;
+    min-height: 100%;
+    top: 40px !important;
+  }
+  
+  .company-title {
+        font-size: 1.5rem !important;
+        font-weight: bold;
+  }
+  
   /*Banner */
   .logo-banner {
       max-width: 200px;
@@ -17,7 +38,6 @@
   .offcanvas-start {
       width: 250px;
   }
-
 
   /*Google Translate*/
   body>.skiptranslate,
