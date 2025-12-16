@@ -86,9 +86,12 @@ fetch("data/tvd-contact.json")
       const elements = document.querySelectorAll(`.${item.key}`);
 
       elements.forEach(el => {
-        // If the key ends with "_url", set src attribute
+
         if (item.key.endsWith("_url") && el.tagName.toLowerCase() === "img") {
           el.src = item.value;
+        }
+        if (item.key.endsWith("_url") && el.tagName.toLowerCase() === "a") {
+          el.href = item.value;
         }
         else if (item.key.endsWith("_map") && el.tagName.toLowerCase() === "iframe") {
           el.src = item.value;
