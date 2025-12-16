@@ -74,6 +74,7 @@ h2,h3 {
 }
 h2.major span {
 				font-size: 1.5rem;
+				background: #ffffff00;
 				position: relative;
 				display: inline-block;
 				top: -0.775em;
