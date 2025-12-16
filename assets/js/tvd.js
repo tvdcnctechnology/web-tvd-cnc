@@ -104,6 +104,10 @@ fetch("data/tvd-contact.json")
           el.href = "mailto:" + item.value;
           el.innerHTML = item.value;
         }
+        else if (item.key.endsWith("_phone") && el.tagName.toLowerCase() === "a") {
+          el.href = "tel:" + item.value;
+          el.innerHTML = item.value;
+        }
         else {
           // Otherwise, update innerHTML
           el.innerHTML = item.value;
