@@ -2966,6 +2966,7 @@ input, select, textarea {
 				h2.major {
 					font-size: 1.25em;
 					margin: 0 0 2em 0;
+					font-weight: bold;
 				}
 
 					h2.major span {
