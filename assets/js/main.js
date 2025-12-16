@@ -46,7 +46,7 @@
 	$(
 		'<div id="titleBar">' +
 		'<a href="#navPanel" class="toggle"></a>' +
-		'<span class="title">' + $('#logo').html() + '</span>' +
+		'<marquee behavior="scroll" direction="left" scrollamount="5"><span class="title contact_company"></span></marquee>' +
 		'</div>'
 	)
 		.appendTo($body);

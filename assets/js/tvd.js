@@ -86,10 +86,11 @@ fetch("data/tvd-contact.json")
       const elements = document.querySelectorAll(`.${item.key}`);
 
       elements.forEach(el => {
-
+ 
         if (item.key.endsWith("_url") && el.tagName.toLowerCase() === "img") {
           el.src = item.value;
         }
+
         if (item.key.endsWith("_url") && el.tagName.toLowerCase() === "a") {
           el.href = item.value;
         }
