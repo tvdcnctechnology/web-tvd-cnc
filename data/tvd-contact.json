@@ -8,8 +8,12 @@
     "value": "NguyenTien CNCrepair"
   },
   {
-    "key": "contact_phone",
-    "value": "0837162362, 0973099378"
+    "key": "contact1_phone",
+    "value": "0837162362 "
+  },
+  {
+    "key": "contact2_phone",
+    "value": 973099378
   },
   {
     "key": "contact_mail",
