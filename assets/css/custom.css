@@ -14,25 +14,53 @@
     top: 40px !important;
   }
   
-  .company-title {
-        font-size: 1.5rem !important;
-        font-weight: bold;
-  }
+
   
   /*Banner */
-  .logo-banner {
-      max-width: 200px;
-  }
+.logo-banner {
+    max-width: 250px;
+}
 
-  .company-title {
+.company-title {
+    color: #044085;
+    font-size: 3.5rem !important;
+    font-weight: bold;
+}
+
+.vision-title {
       font-size: 2rem;
-      font-weight: bold;
-  }
+      color: #555;
+}
 
-  .vision-title {
+h2,h3 {
+    color: #044085 !important;
+    font-weight: bolder !important;
+}
+@media (max-width: 768px) {
+.logo-banner {
+    width: 200px;
+    max-width: 200px;
+}
+.company-title {
+    color: #044085;
+    font-size: 1.5rem !important;
+    font-weight: bolder;
+}
+.vision-title {
       font-size: 1rem;
       color: #555;
-  }
+}
+h2.major span {
+				font-size: 1.5rem;
+				background: #fff;
+				position: relative;
+				display: inline-block;
+				top: -0.775em;
+				padding: 0 1.25em 0 1.25em;
+			} 
+}
+
+
 
   /* Optional: Fix the offcanvas menu to full height */
   .offcanvas-start {
