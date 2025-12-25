@@ -201,7 +201,7 @@
           <!-- Information -->
           <div class="col-12" id="information">
             <div class="content">
-               <h2 class="text-center mb-4">
+              <h2 class="text-center mb-4">
                 <span class="information_title">information_title</span>
               </h2>
               <article class="box page-content">
@@ -253,6 +253,7 @@
                       <div class="d-flex align-items-center mb-4">
                         <img src="images/pic00.jpg" alt="TVDCNC Technology Logo" class="me-3"
                           style="width:150px; height:auto;">
+
                       </div>
                       <div class="d-flex align-items-center mb-4">
                         <i class="fa-solid fa-industry text-primary fs-4 me-3"></i>
@@ -270,7 +271,7 @@
                         <div>
                           <strong class="contact_phone_title">contact_phone_title</strong>
                           <p class="mb-0">
-                            <a href="#"  class="contact1_phone">contact1_phone</a></br>
+                            <a href="#" class="contact1_phone">contact1_phone</a></br>
                             <a href="#" class="contact2_phone">contact2_phone</a>
                           </p>
                         </div>
@@ -294,7 +295,7 @@
                           <strong class="contact_web_title">contact_web_title</strong>
                           <p class="mb-0">
                             <a href="https://tvdcnctechnology.com" target="_blank" class="contact_web">
-                            contact_web
+                              contact_web
                             </a>
                           </p>
                         </div>
@@ -313,6 +314,7 @@
 
                       <!-- Social -->
                       <div class="mt-4">
+
                         <a href="#" class="btn btn-outline-primary btn-sm me-2">
                           <i class="fab fa-facebook-f"></i>
                         </a>
@@ -322,6 +324,7 @@
                         <a href="#" class="btn btn-outline-primary btn-sm">
                           <i class="fab fa-linkedin-in"></i>
                         </a>
+
                       </div>
 
                     </div>
@@ -339,6 +342,7 @@
                       </iframe>
                     </div>
                   </div>
+
                 </div>
 
               </div>
@@ -346,13 +350,37 @@
           </section>
 
           <!-- Copyright -->
-          <div id="copyright">
-            <ul class="menu">
-              <li>&copy; 2025 <span class="contact_company"></span> <span class="contact_copyright"></span></li>
-              <li> <span class="contact_desinged_title"></span>: <a href="#" class="contact_desinged_fb"><span
-                    class="contact_desinged_by"></span></a>
-              </li>
-            </ul>
+            <div  id="copyright">
+          <div class="container">
+            <div class="row g-4">
+              <div class="col-lg-2 mt-0">
+                <div>
+                  <!-- Default gnrcounter.com code for http://www.tvdcnc.com -->
+                  <script language="JavaScript" type="text/javascript"
+                    src="https://gnrcounter.com/counter.php?accId=0cd671ea5e210de8fac7dca3e3cb1a95"></script>
+                  <noscript>
+                    <a href="https://gnrcounter.com" title="Web Analytics">Web Analytics</a>
+                  </noscript>
+                  <!-- End of gnrcounter.com Code -->
+                </div>
+              </div>
+              <div class="col-lg-10 mt-0">
+                <div class="card card-body d-flex flex-column">
+                  <!-- Bottom content -->
+                  <div class="mt-auto text-center">
+                    <div>&copy; 2025 <span class="contact_company"></span></div>
+                    <div><span class="contact_copyright"></span></div>
+                    <div>
+                      <span class="contact_desinged_title">ออกแบบโดย</span>:
+                      <a href="https://www.facebook.com/ygiaphan" target="_blank">
+                        <span>Ý Gia Phan</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           </div>
         </div>
     </footer>
@@ -393,6 +421,8 @@
       $('#imagePopup').on('click', function () {
         $(this).fadeOut();
       });
+
+
     });
 
 
@@ -429,19 +459,19 @@
           }
         }
       }
-      
 
 
- function preventThaiTranslation() {
-  const select = document.querySelector('#google_translate_element select');
-  if (!select) return;
-  select.addEventListener('change', (event) => {
-    const lang = select.value;
-    if (lang === 'th') {
-         $("#\\:1\\.container")[0]?.contentDocument?.querySelector("#\\:1\\.close")?.click();
-    }
-  });
-}
+
+      function preventThaiTranslation() {
+        const select = document.querySelector('#google_translate_element select');
+        if (!select) return;
+        select.addEventListener('change', (event) => {
+          const lang = select.value;
+          if (lang === 'th') {
+            $("#\\:1\\.container")[0]?.contentDocument?.querySelector("#\\:1\\.close")?.click();
+          }
+        });
+      }
 
       // Initial abbreviation
       setTimeout(abbreviateLanguages, 500);
