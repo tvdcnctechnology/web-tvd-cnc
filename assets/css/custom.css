@@ -210,3 +210,10 @@ h2.major span {
       --bs-text-opacity: 1;
       color: rgb(4 64 133) !important;
   }
+#copyright{
+    background-color: rgba(88, 142, 223, 0) !important;
+}
+#copyright .card{
+    background-color: rgb(88 142 223 / 32%) !important;
+    border: none !important;
+}
