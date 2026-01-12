@@ -16,7 +16,8 @@
     "Year_Installed": 2006,
     "Status": "Used",
     "Hours_Used": "N/A",
-    "Price_THB": 1000000
+    "Price_THB": 1000000,
+    "contact": 12312
   },
   {
     "Machine_ID": "CNC-002",
@@ -35,7 +36,8 @@
     "Year_Installed": 2004,
     "Status": "Used",
     "Hours_Used": "N/A",
-    "Price_THB": 400000
+    "Price_THB": 400000,
+    "contact": ""
   },
   {
     "Machine_ID": "CNC-003",
@@ -54,7 +56,8 @@
     "Year_Installed": 2008,
     "Status": "Used",
     "Hours_Used": "N/A",
-    "Price_THB": 1800000
+    "Price_THB": 1800000,
+    "contact": ""
   },
   {
     "Machine_ID": "CNC-004",
@@ -73,7 +76,8 @@
     "Year_Installed": 2010,
     "Status": "Used",
     "Hours_Used": "N/A",
-    "Price_THB": 300000
+    "Price_THB": 300000,
+    "contact": ""
   },
   {
     "Machine_ID": "CNC-005",
@@ -92,7 +96,8 @@
     "Year_Installed": 2007,
     "Status": "Used",
     "Hours_Used": "N/A",
-    "Price_THB": 5600000
+    "Price_THB": 5600000,
+    "contact": ""
   },
   {
     "Machine_ID": "CNC-006",
@@ -111,7 +116,8 @@
     "Year_Installed": 2004,
     "Status": "Used",
     "Hours_Used": "N/A",
-    "Price_THB": 500000
+    "Price_THB": 500000,
+    "contact": ""
   },
   {
     "Machine_ID": "CNC-007",
@@ -130,7 +136,8 @@
     "Year_Installed": 2006,
     "Status": "Used",
     "Hours_Used": "N/A",
-    "Price_THB": 800000
+    "Price_THB": 800000,
+    "contact": ""
   },
   {
     "Machine_ID": "CNC-008",
@@ -149,7 +156,8 @@
     "Year_Installed": 2004,
     "Status": "Used",
     "Hours_Used": "N/A",
-    "Price_THB": 1400000
+    "Price_THB": 1400000,
+    "contact": ""
   },
   {
     "Machine_ID": "CNC-009",
@@ -168,7 +176,8 @@
     "Year_Installed": 2009,
     "Status": "Used",
     "Hours_Used": "N/A",
-    "Price_THB": 900000
+    "Price_THB": 900000,
+    "contact": ""
   },
   {
     "Machine_ID": "CNC-010",
@@ -187,7 +196,8 @@
     "Year_Installed": 2003,
     "Status": "Used",
     "Hours_Used": "N/A",
-    "Price_THB": 700000
+    "Price_THB": 700000,
+    "contact": ""
   },
   {
     "Machine_ID": "CNC-011",
@@ -206,7 +216,8 @@
     "Year_Installed": 2003,
     "Status": "Used",
     "Hours_Used": "N/A",
-    "Price_THB": 450000
+    "Price_THB": 450000,
+    "contact": ""
   },
   {
     "Machine_ID": "CNC-012",
@@ -225,7 +236,8 @@
     "Year_Installed": 2007,
     "Status": "Accessory",
     "Hours_Used": "N/A",
-    "Price_THB": ""
+    "Price_THB": "",
+    "contact": ""
   },
   {
     "Machine_ID": "CNC-013",
@@ -244,7 +256,8 @@
     "Year_Installed": "N/A",
     "Status": "Accessory",
     "Hours_Used": "N/A",
-    "Price_THB": ""
+    "Price_THB": "",
+    "contact": ""
   },
   {
     "Machine_ID": "CNC-014",
@@ -263,6 +276,7 @@
     "Year_Installed": 2015,
     "Status": "Used",
     "Hours_Used": "N/A",
-    "Price_THB": 4000000
+    "Price_THB": 4000000,
+    "contact": ""
   }
 ]
