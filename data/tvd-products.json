@@ -3,7 +3,7 @@
     "Machine_ID": "CNC-001",
     "Stock": 1,
     "Machine_Name": "OKK VM4III",
-    "Image_URL": "images/pic09.jpg",
+    "Image_URL": "images/pic11.jpg",
     "Machine_Type": "Vertical Machining Center",
     "Controller": "FANUC",
     "Axis_Count": 3,
