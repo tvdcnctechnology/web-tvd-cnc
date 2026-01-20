@@ -15,7 +15,7 @@
     background-size: cover;       /* Keep aspect ratio, cover entire screen */
     background-position: center;  /* Center the image */
     background-repeat: no-repeat;
-    opacity: 0.2;                 /* 20% opacity */
+    opacity: 0.4;                 /* 20% opacity */
     z-index: -1;                  /* Behind other content */
   }
   
