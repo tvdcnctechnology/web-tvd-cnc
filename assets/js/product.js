@@ -51,11 +51,26 @@ function formatDetails(rowData) {
     return html;
 }
 
+// Read query string
+var root = "/";
+var datapath = "/data/tvd-products.json"
+function getPath(){
+const urlParams = new URLSearchParams(window.location.search);
+const selectedType = urlParams.get('type');
+    return  {selectedType, datapath}
+}
+
 // Use right-pointing ► and down-pointing ▼
 const ICON_COLLAPSED = '➤';
 const ICON_EXPANDED = '▼';
 // Fetch data and initialize DataTable
-fetch("data/tvd-products.json").then(res => res.json()).then(data => {
+fetch(getPath().datapath).then(res => res.json()).then(data => {
+
+    // Filter by type
+    if (getPath().selectedType) {
+        data = data.filter(item => item.Machine_TypeId == getPath().selectedType);
+    }
+
     const table = $('#cncTable').DataTable({
         data: data,
         columns: [{
@@ -66,7 +81,7 @@ fetch("data/tvd-products.json").then(res => res.json()).then(data => {
         }, {
             data: null,
             render: function (d) {
-                return renderImage(d.Image_URL, d.Machine_Name);
+                return renderImage(root+d.Image_URL, d.Machine_Name);
             }
         }, {
             data: 'Machine_Name'
