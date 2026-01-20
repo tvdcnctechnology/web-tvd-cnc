@@ -40,6 +40,38 @@
     "value": "สินค้า"
   },
   {
+    "key": "menu_type1",
+    "value": "เครื่องกลึง CNC"
+  },
+  {
+    "key": "menu_type2",
+    "value": "เครื่องกัด CNC"
+  },
+  {
+    "key": "menu_type3",
+    "value": "เครื่องเจาะ CNC"
+  },
+  {
+    "key": "menu_type4",
+    "value": "เครื่องกลึง"
+  },
+  {
+    "key": "menu_type5",
+    "value": "เครื่องกัด"
+  },
+  {
+    "key": "menu_type6",
+    "value": "เครื่องเจียร"
+  },
+  {
+    "key": "menu_type7",
+    "value": "เครื่องเจาะ"
+  },
+  {
+    "key": "menu_type8",
+    "value": "เครื่องจักรและอุปกรณ์อื่นๆ"
+  },
+  {
     "key": "menu_service",
     "value": "บริการ"
   },
