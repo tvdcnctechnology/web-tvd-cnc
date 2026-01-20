@@ -16,6 +16,10 @@ fetch("/data/tvd-home.json")
      if (selectedType && item.key == "menu_type"+selectedType){
         const eleProductTitle = document.querySelectorAll(`.${"product_title"}`);
         eleProductTitle.forEach(el => el.innerHTML = item.value);
+
+        const eleProductTitle2 = document.querySelectorAll(`.${"contact_company"}`);
+        eleProductTitle2.forEach(el => el.innerHTML = item.value);
+        
       }
 
     });
