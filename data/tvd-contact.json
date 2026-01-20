@@ -4,16 +4,20 @@
     "value": "บริษัท ทีวีดี ซีเอ็นซี เทคโนโลยี จำกัด"
   },
   {
-    "key": "contact_line",
-    "value": "NguyenTien CNCrepair"
-  },
-  {
     "key": "contact1_phone",
     "value": "080-6152511"
   },
   {
     "key": "contact2_phone",
     "value": "0622-234-232"
+  },
+  {
+    "key": "contact_line_url",
+    "value": "https://line.me/ti/p/asUzA2-Z4Z"
+  },
+  {
+    "key": "contact_fb_url",
+    "value": "https://www.facebook.com/profile.php?id=61587006503523"
   },
   {
     "key": "contact_mail",
