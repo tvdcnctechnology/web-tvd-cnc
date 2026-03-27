@@ -7,6 +7,46 @@
     "Machine_TypeId": 8,
     "Type": "เครื่องจักรและอุปกรณ์อื่นๆ",
     "Price_THB": "080-615-2511 (Hotline)",
-    "Detail": "รุ่น: OKK VM7\n✔️ ปีผลิต: 2001\n✔️ ระบบควบคุม: Mitsubishi Neomatic 635 ใช้งานง่าย เสถียร\n✔️ Spindle: BT50 แข็งแรง รองรับงานหนัก\n✔️ ความเร็วรอบ: 6,000 RPM\n✔️ ATC: 30 Tools (เปลี่ยนเครื่องมืออัตโนมัติ)\n✔️ ขนาดโต๊ะ: 1,550 x 740 mm\n✔️ ระยะวิ่ง:\n  🔹 X: 1,530 mm\n  🔹 Y: 740 mm\n  🔹 Z: 660 mm"
+    "Detail": "✔️ รุ่น: OKK VM7\n✔️ ปีผลิต: 2001\n✔️ ระบบควบคุม: Mitsubishi Neomatic 635 ใช้งานง่าย เสถียร\n✔️ Spindle: BT50 แข็งแรง รองรับงานหนัก\n✔️ ความเร็วรอบ: 6,000 RPM\n✔️ ATC: 30 Tools (เปลี่ยนเครื่องมืออัตโนมัติ)\n✔️ ขนาดโต๊ะ: 1,550 x 740 mm\n✔️ ระยะวิ่ง:\n  🔹 X: 1,530 mm\n  🔹 Y: 740 mm\n  🔹 Z: 660 mm"
+  },
+  {
+    "Machine_ID": "CNC-002",
+    "Stock": 1,
+    "Machine_Name": "Mori seiki NV5000 B /40",
+    "Image_URL": "images/pic26.jpg",
+    "Machine_TypeId": 8,
+    "Type": "เครื่องจักรและอุปกรณ์อื่นๆ",
+    "Price_THB": "080-615-2511 (Hotline)",
+    "Detail": ""
+  },
+  {
+    "Machine_ID": "CNC-003",
+    "Stock": 1,
+    "Machine_Name": "Mori Seiki SL-25M/C B5",
+    "Image_URL": "images/pic27.jpg",
+    "Machine_TypeId": 8,
+    "Type": "เครื่องจักรและอุปกรณ์อื่นๆ",
+    "Price_THB": "080-615-2511 (Hotline)",
+    "Detail": "✔️ ทูลหมุน 12 ตัว (กลึง + กัด + เจาะ ครบจบเครื่องเดียว)\n✔️ ระบบควบคุม Fanuc 10T – ใช้งานง่าย ทนทาน\n✔️ หัวจับ 250mm – จับชิ้นงานแน่น เสถียร\n✔️ ศูนย์ท้าย 500mm – รองรับงานยาวได้ดี"
+  },
+  {
+    "Machine_ID": "CNC-004",
+    "Stock": 1,
+    "Machine_Name": "Mori Seiki ZT1500Y",
+    "Image_URL": "images/pic28.jpg",
+    "Machine_TypeId": 8,
+    "Type": "เครื่องจักรและอุปกรณ์อื่นๆ",
+    "Price_THB": "080-615-2511 (Hotline)",
+    "Detail": ""
+  },
+  {
+    "Machine_ID": "CNC-005",
+    "Stock": 1,
+    "Machine_Name": "",
+    "Image_URL": "",
+    "Machine_TypeId": 8,
+    "Type": "เครื่องจักรและอุปกรณ์อื่นๆ",
+    "Price_THB": "080-615-2511 (Hotline)",
+    "Detail": ""
   }
 ]
