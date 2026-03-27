@@ -38,15 +38,5 @@
     "Type": "เครื่องจักรและอุปกรณ์อื่นๆ",
     "Price_THB": "080-615-2511 (Hotline)",
     "Detail": ""
-  },
-  {
-    "Machine_ID": "CNC-005",
-    "Stock": 1,
-    "Machine_Name": "",
-    "Image_URL": "",
-    "Machine_TypeId": 8,
-    "Type": "เครื่องจักรและอุปกรณ์อื่นๆ",
-    "Price_THB": "080-615-2511 (Hotline)",
-    "Detail": ""
   }
 ]
