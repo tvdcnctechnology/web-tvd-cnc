@@ -64,9 +64,39 @@
     "Stock": 1,
     "Machine_Name": "TUDA TUDOR MAX TSL860",
     "Image_URL": "images/pic31.jpg",
+    "Machine_TypeId": 1,
+    "Type": "เครื่องกลึง CNC",
+    "Price_THB": "080-615-2511 (Hotline)",
+    "Detail": "✔️ ระยะระหว่างศูนย์ (Between Centers): 860 mm\n✔️ มาพร้อม กันศูนย์ (Tailstock) → รองรับงานเพลายาวได้มั่นคง\n✔️ มี ช่องลอด (Gap Bed) → กลึงชิ้นงานขนาดใหญ่พิเศษได้\n✔️ หัวจับ 3 Jaw Chuck ขนาด 230 mm\n✔️ กลึงผ่านป้อมมีด (Swing over Cross Slide): 300 mm\n✔️ กลึงผ่านแท่น (Swing over Bed): 520 mm\n✔️ กลึงผ่านช่องลอด (Swing in Gap): 720 mm"
+  },
+  {
+    "Machine_ID": "CNC-008",
+    "Stock": "sold out",
+    "Machine_Name": "MAKINO V33",
+    "Image_URL": "images/pic32.jpg",
+    "Machine_TypeId": 2,
+    "Type": "เครื่องกัด CNC",
+    "Price_THB": "080-615-2511 (Hotline)",
+    "Detail": "✔️ ระบบควบคุม FANUC 16i-M → เสถียร ใช้งานง่าย\n✔️ ระยะวิ่งแกน\n  🔹 X: 600 mm\n  🔹 Y: 400 mm\n  🔹 Z: 350 mm\n✔️ ระบบจับเครื่องมือ HSK A63 → ความแม่นยำสูง ลดการสั่น\n✔️ แม็กกาซีนเครื่องมือ 15 Tools\n✔️ ความเร็วสปินเดิลสูงสุด 20,000 rpm → เหมาะกับงานละเอียดและความเร็วสูง"
+  },
+  {
+    "Machine_ID": "CNC-009",
+    "Stock": "sold out",
+    "Machine_Name": "TAKAMAZ X10i",
+    "Image_URL": "images/pic33.jpg",
+    "Machine_TypeId": 1,
+    "Type": "เครื่องกลึง CNC",
+    "Price_THB": "080-615-2511 (Hotline)",
+    "Detail": "✔️ ระบบควบคุม FANUC 21i-TB → เสถียร ใช้งานง่าย\n✔️ ระยะวิ่งแกน\n  🔹 X: 240 mm\n  🔹 Z: 230 mm\n✔️ ป้อมมีด 8 Tools → รองรับงานกลึงหลากหลาย\n✔️ ความเร็วสปินเดิลสูงสุด 3,500 rpm → เหมาะกับงานทั่วไปถึงงานละเอียด"
+  },
+  {
+    "Machine_ID": "CNC-010",
+    "Stock": "sold out",
+    "Machine_Name": "WASINO LN-32R (230 x 800 mm)",
+    "Image_URL": "images/pic34.jpg",
     "Machine_TypeId": 8,
     "Type": "เครื่องจักรและอุปกรณ์อื่นๆ",
     "Price_THB": "080-615-2511 (Hotline)",
-    "Detail": "✔️ ระยะระหว่างศูนย์ (Between Centers): 860 mm\n✔️ มาพร้อม กันศูนย์ (Tailstock) → รองรับงานเพลายาวได้มั่นคง\n✔️ มี ช่องลอด (Gap Bed) → กลึงชิ้นงานขนาดใหญ่พิเศษได้\n✔️ หัวจับ 3 Jaw Chuck ขนาด 230 mm\n✔️ กลึงผ่านป้อมมีด (Swing over Cross Slide): 300 mm\n✔️ กลึงผ่านแท่น (Swing over Bed): 520 mm\n✔️ กลึงผ่านช่องลอด (Swing in Gap): 720 mm"
+    "Detail": "✔️ ระบบควบคุม FANUC 0T → ใช้งานง่าย ทนทาน\n✔️ ขนาดงานรองรับ: 230 x 800 mm\n✔️ โครงสร้างเครื่องแข็งแรง → ลดการสั่น เพิ่มความแม่นยำ\n✔️ เหมาะสำหรับงานกลึงต่อเนื่องและงานละเอียด"
   }
 ]
