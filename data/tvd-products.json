@@ -48,5 +48,55 @@
     "Type": "เครื่องจักรและอุปกรณ์อื่นๆ",
     "Price_THB": "080-615-2511 (Hotline)",
     "Detail": "✔️ ปีผลิต: 2005\n✔️ ระบบควบคุม: FANUC 18i-MB (ใช้งานง่าย ซ่อมง่าย อะไหล่หาง่าย)\n✔️ Spindle: BT50 (เหมาะงานหนัก แข็งแรง)\n✔️ ATC: 30 Tools\n✔️ ขนาดโต๊ะ: 1600 x 610 mm\n✔️ ระยะวิ่ง:\n  • X: 1300 mm\n  • Y: 610 mm\n  • Z: 560 mm\n✔️ ความเร็ว Spindle: 6000 rpm"
+  },
+  {
+    "Machine_ID": "CNC-006",
+    "Stock": 1,
+    "Machine_Name": "OKUMA & HOWA MILLAC-511V",
+    "Image_URL": "images/pic30.jpg",
+    "Machine_TypeId": 8,
+    "Type": "เครื่องจักรและอุปกรณ์อื่นๆ",
+    "Price_THB": "080-615-2511 (Hotline)",
+    "Detail": "✔️ ปีผลิต: 1997\n✔️ ระบบควบคุม OH-OSP-HMC → ใช้งานง่าย เสถียร สไตล์ OKUMA\n✔️ หัวจับเครื่องมือ BT50 → รองรับงานหนัก ตัดเฉือนมั่นใจ\n✔️ แม็กกาซีนเครื่องมือ 20 Tools → เปลี่ยนเครื่องมือรวดเร็ว\n✔️ ความเร็วสปินเดิล 4,000 rpm → เพียงพอสำหรับงานหลากหลาย\n✔️ ขนาดโต๊ะงาน 1250 × 555 mm → รองรับชิ้นงานขนาดกลาง-ใหญ่\n✔️ ระยะวิ่งแกน\n  🔹 X: 1000 mm\n  🔹 Y: 510 mm\n  🔹 Z: 520 mm"
+  },
+  {
+    "Machine_ID": "CNC-007",
+    "Stock": 1,
+    "Machine_Name": "",
+    "Image_URL": "images/pic29.jpg",
+    "Machine_TypeId": 8,
+    "Type": "เครื่องจักรและอุปกรณ์อื่นๆ",
+    "Price_THB": "080-615-2511 (Hotline)",
+    "Detail": ""
+  },
+  {
+    "Machine_ID": "CNC-008",
+    "Stock": 1,
+    "Machine_Name": "",
+    "Image_URL": "images/pic29.jpg",
+    "Machine_TypeId": 8,
+    "Type": "เครื่องจักรและอุปกรณ์อื่นๆ",
+    "Price_THB": "080-615-2511 (Hotline)",
+    "Detail": ""
+  },
+  {
+    "Machine_ID": "CNC-009",
+    "Stock": 1,
+    "Machine_Name": "",
+    "Image_URL": "images/pic29.jpg",
+    "Machine_TypeId": 8,
+    "Type": "เครื่องจักรและอุปกรณ์อื่นๆ",
+    "Price_THB": "080-615-2511 (Hotline)",
+    "Detail": ""
+  },
+  {
+    "Machine_ID": "CNC-010",
+    "Stock": 1,
+    "Machine_Name": "",
+    "Image_URL": "images/pic29.jpg",
+    "Machine_TypeId": 8,
+    "Type": "เครื่องจักรและอุปกรณ์อื่นๆ",
+    "Price_THB": "080-615-2511 (Hotline)",
+    "Detail": ""
   }
 ]
