@@ -148,5 +148,35 @@
     "Type": "เครื่องจักรและอุปกรณ์อื่นๆ",
     "Price_THB": "080-615-2511 (Hotline)",
     "Detail": "✔️ ปีผลิต: 2006\n✔️ ระบบควบคุม FANUC 18i-MB → เสถียร ใช้งานง่าย\n✔️ ระยะวิ่งแกน\n  🔹 X: 280 mm\n  🔹 Y: 400 mm\n  🔹 Z: 400 mm\n✔️ ระบบจับเครื่องมือ BT40 → สมดุลระหว่างความเร็วและความแข็งแรง\n✔️ แม็กกาซีนเครื่องมือ 20 Tools\n✔️ ความเร็วสปินเดิลสูงสุด 12,000 rpm\n"
+  },
+  {
+    "Machine_ID": "CNC-016",
+    "Stock": 1,
+    "Machine_Name": "TAKISAWA TC3",
+    "Image_URL": "images/pic40.jpg",
+    "Machine_TypeId": 1,
+    "Type": "เครื่องกลึง CNC",
+    "Price_THB": "080-615-2511 (Hotline)",
+    "Detail": "✔️ ปีผลิต: 1990\n✔️ ระบบควบคุม FANUC 0T → ใช้งานง่าย ซ่อมบำรุงสะดวก\n✔️ ป้อมมีด 8 Tools → รองรับงานกลึงพื้นฐาน-ทั่วไป\n✔️ ระยะวิ่งแกน\n  🔹 X: 350 mm\n  🔹 Z: 500 mm\n✔️ ความเร็วสปินเดิลสูงสุด 3,500 rpm"
+  },
+  {
+    "Machine_ID": "CNC-017",
+    "Stock": 1,
+    "Machine_Name": "TAKISAWA TC2",
+    "Image_URL": "images/pic41.jpg",
+    "Machine_TypeId": 8,
+    "Type": "เครื่องจักรและอุปกรณ์อื่นๆ",
+    "Price_THB": "080-615-2511 (Hotline)",
+    "Detail": "✔️ ปีผลิต: 1990\n✔️ ระบบควบคุม FANUC 0T → ทนทาน ใช้งานง่าย\n✔️ ป้อมมีด 8 Tools → รองรับงานกลึงหลากหลาย\n✔️ หัวจับ 200 mm\n✔️ ความเร็วสปินเดิลสูงสุด 3,500 rpm\n✔️ ระยะวิ่งแกน\n  🔹 X: 258 mm\n  🔹 Z: 350 mm\n✔️ ระยะระหว่างศูนย์ (Tailstock): 500 mm"
+  },
+  {
+    "Machine_ID": "CNC-018",
+    "Stock": 1,
+    "Machine_Name": "MORI SEIKI SL-25E",
+    "Image_URL": "images/pic42.jpg",
+    "Machine_TypeId": 1,
+    "Type": "เครื่องกลึง CNC",
+    "Price_THB": "080-615-2511 (Hotline)",
+    "Detail": "✔️ ปีผลิต: 1990\n✔️ ระบบควบคุม FANUC 21i-T → เสถียร ใช้งานง่าย\n✔️ หัวจับ 250 mm → รองรับชิ้นงานขนาดกลาง\n✔️ ความเร็วสปินเดิลสูงสุด 3,500 rpm\n✔️ ระยะวิ่งแกน\n  🔹 X: 320 mm\n  🔹 Z: 600 mm"
   }
 ]
